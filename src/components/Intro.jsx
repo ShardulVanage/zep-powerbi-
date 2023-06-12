@@ -202,7 +202,7 @@ function Intro() {
                     <h1>What will you learn in this Masterclass?</h1>
                 </div>
 
-                <div className="bg-white py-24 sm:py-32" >
+                <div className="bg-white py-24 sm:pt-32 " >
                     <div className="w-full px-6 lg:px-8">
                         <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-6xl lg:grid-cols-2  ">
 
@@ -351,10 +351,10 @@ function Intro() {
                 </div>
                 {/* FAQ  */}
 
-                <div className="bg-white">
-                    <div className="mx-auto max-w-7xl px-6 py-24 sm:py-32 lg:py-40 lg:px-8">
+                <div className="bg-slate-100 w-screen">
+                    <div className="mx-auto max-w-7xl px-6 py-24 sm:py-32 lg:py-24 lg:px-8">
                         <div className="mx-auto max-w-4xl divide-y divide-gray-900/10">
-                            <h2 className="text-2xl font-bold leading-10 tracking-tight text-gray-900">Frequently asked questions</h2>
+                            <h2 className="text-3xl font-bold leading-10 tracking-tight text-gray-900">Frequently asked questions</h2>
                             <p className='text-sm p-4'>I have tried my best to answer all the frequently asked questions. If you still have more questions,
                                 please write to us at scontact@zepanalytics.com (Give us 8 working hours to respond back). My awesome support team will get back to you.</p>
                             <dl className="mt-10 space-y-6 divide-y divide-gray-900/10">
@@ -364,7 +364,7 @@ function Intro() {
                                             <>
                                                 <dt>
                                                     <Disclosure.Button className="flex w-full items-start justify-between text-left text-gray-900">
-                                                        <span className="text-base font-semibold leading-7">{faq.question}</span>
+                                                        <span className="text-xl font-semibold leading-7">{faq.question}</span>
                                                         <span className="ml-6 flex h-7 items-center">
                                                             {open ? (
                                                                 <PlusSmallIcon className="h-6 w-6" aria-hidden="true" />

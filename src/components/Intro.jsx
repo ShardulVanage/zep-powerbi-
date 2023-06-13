@@ -124,15 +124,15 @@ function Intro() {
 
         <div className='bg-black text-white pt-12 flex flex-col items-center'>
             {/* section */}
-            <h1 className='text-4xl w-2/3 font-medium'>
-                BECOME A POWER BI EXPERT AND UNLEASH THE POWER OF ADVANCED DATA ANALYSIS AND VISUALIZATION TECHNIQUES USED BY TOP BUSINESS INTELLIGENCE PROFESSIONALS.
-                DISCOVER HOW TO SAVE UP TO 2 HOURS OF TIME EVERYDAY WITHOUT ANY PRIOR KNOWLEDGE, ALL IN JUST 3 HOURS.
+            <h1 className='sm:text-4xl sm:w-2/3 font-medium w-full text-lg [&>span]:text-yellow-500 [&>span]:underline'>
+                BECOME A <span>POWER BI</span>  EXPERT AND UNLEASH THE POWER OF ADVANCED DATA ANALYSIS AND VISUALIZATION TECHNIQUES USED BY <span>TOP BUSINESS INTELLIGENCE PROFESSIONALS</span> .
+                DISCOVER HOW TO <span>SAVE UP TO 2 HOURS</span>  OF TIME EVERYDAY WITHOUT ANY <span>PRIOR KNOWLEDGE</span> , ALL IN JUST <span> 3 HOURS</span>.
             </h1>
             <video src={video} width={800} height={600} className='rounded-3xl p-3 mt-4' autoPlay controls  ></video>
 
-            <button className='bg-yellow-300 font-semibold text-red-500  text text-4xl p-4 rounded-xl px-8 mt-4'> "Become a Certified Power BI Expert Now <br /> <span className='text-lg'>cost less then pizza</span> </button>
-            <div className='flex flex-row '>
-                <div class="grid grid-cols-2 gap-24  px-24 ">
+            <button className='bg-yellow-300 font-semibold text-red-500  text sm:text-4xl p-4 rounded-xl px-8 mt-4 text-xl'> "Become a Certified Power BI Expert Now <br /> <span className='sm:text-lg text-sm'>(cost less then pizza)</span> </button>
+            <div >
+                <div class="grid sm:grid-cols-2 sm:gap-24  sm:px-24 grid-flow-col-1 p-4 ">
                     <div className=' flex  items-start flex-col text-xl font-bold  [&>h1]:pt-4'>
                         <h1><CheckCircleIcon width={35} />Say goodbye to overtime with Power BI. Master data analysis, save time.</h1>
                         <h1> <CheckCircleIcon width={35} />slash your daily work by 2 hours with power bi. proven efficiency.</h1>
@@ -146,23 +146,23 @@ function Intro() {
                 </div>
             </div>
             {/* section */}
-            <div className='text-3xl mt-12 bg-yellow-400 text-black p-8 flex w-screen justify-center font-semibold'>
+            <div className='sm:text-3xl text-xl mt-12 bg-yellow-400 text-black p-8 flex w-screen justify-center font-semibold'>
                 <h1>Workshop is on 29th June from 7 to 10 PM. <br />
                     ***Be Quick! Last few seats are remaining for this batch!***</h1>
             </div>
             {/* section */}
             <div className='bg-slate-50 w-screen text-black flex  flex-col items-center justify-center p-8'>
-                <div className='w-5/6 '>
+                <div className='sm:w-5/6 w-full  '>
 
-                    <h1 className='text-4xl font-bold  p-8'>Please Check All Boxes Where Your Answer Is YES!</h1>
-                    <div class="grid grid-cols-2 gap-48 justify-center items-center text-gray-600 pl-12 ">
-                        <div className='  flex  items-start flex-col text-xl font-bold  [&>span]:pt-4   '>
+                    <h1 className='sm:text-4xl text-2xl font-bold  sm:p-8'>Please Check All Boxes Where Your Answer Is YES!</h1>
+                    <div class="grid sm:grid-cols-2 grid-flow-col-1 sm:gap-48 justify-center items-center text-gray-600 sm:pl-12 p-2 ">
+                        <div className='  flex  items-start flex-col sm:text-xl text-base font-bold  [&>span]:pt-8   '>
 
                             <span  ><input type="checkbox" className='mr-4 h-5 w-5' /> <label htmlFor="">I have been using Power BI daily but still haven't mastered it.</label></span>
                             <span  ><input type="checkbox" className='mr-4 h-5 w-5' /> <label htmlFor="">I want to unlock better job opportunities, but my lack of Power BI knowledge is holding me back.</label></span>
                             <span  ><input type="checkbox" className='mr-4 h-5 w-5' /> <label htmlFor="">Advanced Power BI seems challenging, and I need a mentor to guide me through it. </label></span>
                         </div>
-                        <div className='flex  items-start flex-col text-xl font-bold  [&>span]:pt-4  '>
+                        <div className='flex  items-start flex-col sm:text-xl text-base font-bold  [&>span]:pt-4  '>
                             <span  ><input type="checkbox" className='mr-4 h-5 w-5' /> <label htmlFor="">I aim to impress my manager and colleagues with captivating Power BI reports.</label></span>
                             <span  ><input type="checkbox" className='mr-4 h-5 w-5' /> <label htmlFor="">I want to boost my efficiency in using Power BI and save over 2 hours every day.</label></span>
                             <span  ><input type="checkbox" className='mr-4 h-5 w-5' /> <label htmlFor="">I want to harness the power of advanced Power BI formulas to simplify my work life.</label></span>
@@ -170,35 +170,35 @@ function Intro() {
                     </div>
                 </div>
 
-                <div className='text-xl mt-12  text-black  flex w-screen justify-center font-extrabold'>
+                <div className='text-xl mt-12  text-black  flex w-full justify-center font-extrabold '>
                     <h1>If you checked ANY of the boxes above, then you’re invited to join the Power BI course 😀</h1>
                 </div>
 
-                <button className='bg-yellow-300 font-semibold text-red-500  text text-4xl p-4 rounded-xl px-8 mt-12 '> "Become a Certified Power BI Expert Now <br /> <span className='text-lg'>cost less then pizza</span> </button>
+                <button className='bg-yellow-300 font-semibold text-red-500  text sm:text-4xl p-4 rounded-xl px-8 mt-4 text-xl'> "Become a Certified Power BI Expert Now <br /> <span className='sm:text-lg text-sm'>(cost less then pizza)</span> </button>
 
-                <div className='text-xl mt-12  text-black  flex w-screen justify-center font-extrabold'>
+                <div className='sm:text-xl text-sm mt-12  text-black  flex w-screen justify-center font-extrabold'>
                     <h1>Register before June 11, 2023 to unlock bonuses worth Rs 12,000</h1>
                 </div>
             </div>
             {/* testimonials */}
             <div className='bg-white w-screen text-black flex  flex-col items-center justify-center p-8'>
-                <div className='text-4xl w-3/5 font-extrabold '>
+                <div className='sm:text-4xl text-2xl sm:w-3/5 font-extrabold '>
                     <h1>More than 34,240 students have called it the best way to learn Power BI, received salary hikes & job offers!</h1>
                 </div>
-                <div class="grid grid-cols-2 gap-40 justify-center items-center text-gray-600 pl-12 mt-4 ">
+                <div class="grid sm:grid-cols-2 grid-flow-col-1 sm:gap-48 justify-center items-center text-gray-600 sm:pl-12 p-2 ">
                     <div className='  flex  items-start flex-col   '>
                         <img src={t1} alt="" className='object-fill  h-3/5 w-2/1' />
                         <img src={t2} alt="" className='object-fill  h-3/5 w-2/1' />
 
                     </div>
                     <div className='flex  items-start flex-col '>
-                        <img src={t3} alt="" className='object-fill  h-3/5 w-3/4' />
-                        <img src={t4} alt="" className='object-fill  h-3/5 w-3/4' />
+                        <img src={t3} alt="" className='object-fill  h-3/5 sm:w-3/4' />
+                        <img src={t4} alt="" className='object-fill  h-3/5 sm:w-3/4' />
                     </div>
                 </div>
-                <button className='bg-yellow-300 font-semibold text-red-500  text text-4xl p-4 rounded-xl px-8 mt-12 '> "Become a Certified Power BI Expert Now <br /> <span className='text-lg'>cost less then pizza</span> </button>
+                <button className='bg-yellow-300 font-semibold text-red-500  text sm:text-4xl p-4 rounded-xl px-8 mt-8 text-xl'> "Become a Certified Power BI Expert Now <br /> <span className='sm:text-lg text-sm'>(cost less then pizza)</span> </button>
 
-                <div className='text-5xl w-3/5 font-extrabold  mt-8'>
+                <div className='sm:text-5xl text-3xl  sm:w-3/5 font-extrabold  mt-8'>
                     <h1>What will you learn in this Masterclass?</h1>
                 </div>
 
@@ -224,16 +224,16 @@ function Intro() {
                 </div>
 
 
-                <button className='bg-yellow-300 font-semibold text-red-500  text text-4xl p-4 rounded-xl px-8 mt-12 '> "Become a Certified Power BI Expert Now <br /> <span className='text-lg'>cost less then pizza</span> </button>
+                <button className='bg-yellow-300 font-semibold text-red-500  text sm:text-4xl p-4 rounded-xl px-8 mt-4 text-xl'> "Become a Certified Power BI Expert Now <br /> <span className='sm:text-lg text-sm'>(cost less then pizza)</span> </button>
                 <div className='text-xl mt-12  text-black  flex w-screen justify-center font-extrabold'>
                     <h1>Register before June 11, 2023 to unlock bonuses worth Rs 12,000</h1>
                 </div>
 
 
-                <div className='text-5xl mt-12 bg-yellow-400 text-black p-8 flex w-screen justify-center font-semibold'>
+                <div className='sn:text-5xl text-3xl mt-12 bg-yellow-400 text-black p-8 flex w-screen justify-center font-semibold'>
 
                     <h1>Register before midnight of 10 Jun 2023 <br />
-                        <span className='text-2xl'>To Unlock All Bonuses worth Rs 12,000</span>
+                        <span className='sm:text-2xl text-lg'>To Unlock All Bonuses worth Rs 12,000</span>
                     </h1>
 
                 </div>
@@ -290,28 +290,28 @@ function Intro() {
 
                 {/* certificate */}
                 <div className='bg-gray-900 w-screen text-white flex  flex-col items-center justify-center p-8'>
-                    <div className='text-5xl mt-4  text-yellow-300 p-8 flex w-screen justify-center font-semibold'>
+                    <div className='sn:text-5xl text-3xl mt-4  text-yellow-300 sm:p-8 p-2 flex w-screen justify-center font-semibold'>
                         <h1>Become a Certified Power BI</h1>
                     </div>
-                    <div className='text-xl mt-4  text-white  flex w-screen justify-center font-extrabold'>
+                    <div className='sm:text-xl text-base mt-4 p-2 text-white  flex w-screen justify-center font-extrabold'>
                         <h1>Yes! You will be certified by a Power BI Trainer which brings a lot of credibility to your certificate & your resume.   </h1>
                     </div>
                     <div className='p-4'>
                         <img src={certificate} alt="" height={400} width={1000} />
                     </div>
-                    <button className='bg-yellow-300 font-semibold text-red-500  text text-4xl p-4 rounded-xl px-8 mt-12 '> "Become a Certified Power BI Expert Now <br /> <span className='text-lg'>cost less then pizza</span> </button>
-                    <div className='text-xl mt-2  text-white  flex w-screen justify-center font-extrabold mb-4'>
+                    <button className='bg-yellow-300 font-semibold text-red-500  text sm:text-4xl p-4 rounded-xl px-8 mt-4 text-xl'> "Become a Certified Power BI Expert Now <br /> <span className='sm:text-lg text-sm'>(cost less then pizza)</span> </button>
+                    <div className='sm:text-xl text-base mt-4  text-white  flex w-screen justify-center font-extrabold mb-4'>
                         <h1>Register before June 09, 2023 to unlock bonuses worth Rs 12,000.</h1>
                     </div>
 
                 </div>
                 {/* Mentor */}
                 <div className="relative isolate bg-white">
-                    <h1 className='font-bold text-5xl mt-12 ' > Know your mentor</h1>
-                    <div className="mx-auto max-w-7xl px-6 py-24 sm:py-32 lg:flex lg:items-center lg:gap-x-10 lg:px-8 lg:py-12">
+                    <h1 className='font-bold sm:text-5xl text-4xl mt-12 ' > Know your mentor</h1>
+                    <div className="mx-auto max-w-7xl px-6 py-12 sm:py-32 lg:flex lg:items-center lg:gap-x-10 lg:px-8 lg:py-12">
                         <div className="mx-auto max-w-2xl lg:mx-0 lg:flex-auto">
 
-                            <h1 className="mt-10  max-w-lg text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl">
+                            <h1 className="sm:mt-10  max-w-lg text-2xl font-semibold tracking-tight text-gray-900 sm:text-5xl">
                                 Satyajit Pattnaik
                             </h1>
                             <p className="mt-6 text-lg leading-8 text-gray-600">
@@ -345,7 +345,7 @@ function Intro() {
                         </div>
                     </div >
                 </div>
-                <button className='bg-yellow-300 font-semibold text-red-500  text text-4xl p-4 rounded-xl px-8 mt-12 '> "Become a Certified Power BI Expert Now <br /> <span className='text-lg'>cost less then pizza</span> </button>
+                <button className='bg-yellow-300 font-semibold text-red-500  text sm:text-4xl p-4 rounded-xl px-8 mt-4 text-xl'> "Become a Certified Power BI Expert Now <br /> <span className='sm:text-lg text-sm'>(cost less then pizza)</span> </button>
                 <div className='text-xl mt-12  text-black  flex w-screen justify-center font-extrabold mb-4'>
                     <h1>Register before June 09, 2023 to unlock bonuses worth Rs 12,000.</h1>
                 </div>

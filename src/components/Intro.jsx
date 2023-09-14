@@ -125,9 +125,34 @@ function Intro() {
     //faq
     const faqs = [
         {
-            question: "What's the best thing about Switzerland?",
+            question: "When does the workshop start?",
             answer:
-                "I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
+                "The workshop will be for 2 days: Saturday 7-10 PM (21th Oct) & Sunday 7-10 PM (22 Oct)",
+        },
+        {
+            question: "Timings of the workshop?",
+            answer:
+                "Day 1 – Saturday 7-10 PM Day 2 – Sunday 7-10 PM -We have kept the timings to be post office hours so you can attend the workshop easily.",
+        },
+        {
+            question: "Will I get recordings if I miss out on a live session?",
+            answer:
+                "You will receive recordings of Day 1 (Saturday) session. Please note, there would be no recording of the Day 2 (Sunday) session.Moreover, attending live is just 100x better than watching the recording as you can clear all doubts instantly. ",
+        },
+        {
+            question: "Is there a specific device requirement?",
+            answer: "You will require a Windows Laptop/PC to attend the workshop. Power BI isn’t available for Mac as of now. "
+
+        },
+        {
+            question: "Are there any pre-requisites to attend this workshop?",
+            answer: "You just need an interest in the world of data to learn. No prior knowledge about any software is required."
+
+        },
+        {
+            question: "I made the payment but didn’t receive any update",
+            answer: "Please email us at contact@zepanalytics.com in & our support team will get back to you as soon as possible."
+
         },
         // More questions...
     ]
@@ -240,7 +265,7 @@ function Intro() {
                     <span className='drop-shadow-xl'> Become a Power BI Expert Now!! <br /> <span className='sm:text-lg text-sm '>【 cost less then a pizza 🍕】</span></span>
                 </button>
                 <div className='sm:text-xl text-sm mt-12  text-black  flex w-screen justify-center font-extrabold'>
-                    <h1>Register before 15 {nextMonthDateString}, 2023 to unlock bonuses worth Rs 12,000</h1>
+                    <h1>Register before 15 Oct, 2023 to unlock bonuses worth Rs 12,000</h1>
                 </div>
             </div>
             {/* testimonials */}
@@ -296,13 +321,13 @@ function Intro() {
                     <span className='drop-shadow-xl'> Become a Power BI Expert Now!! <br /> <span className='sm:text-lg text-sm '>【 cost less then a pizza 🍕】</span></span>
                 </button>
                 <div className='text-xl mt-12  text-black  flex w-screen justify-center font-extrabold'>
-                    <h1>Register before 15 {nextMonthDateString}, 2023 to unlock bonuses worth Rs 12,000</h1>
+                    <h1>Register before 15 Oct, 2023 to unlock bonuses worth Rs 12,000</h1>
                 </div>
 
 
                 <div className='sn:text-5xl text-3xl mt-12 bg-[radial-gradient(ellipse_at_bottom,_var(--tw-gradient-stops))] from-orange-400 to-rose-400 text-white p-8 flex w-screen justify-center font-semibold'>
 
-                    <h1 className='drop-shadow-md'>Register before midnight of 15 {nextMonthDateString} 2023 <br />
+                    <h1 className='drop-shadow-md'>Register before midnight of 15 Oct 2023 <br />
                         <span className='sm:text-2xl text-lg'>To Unlock All Bonuses worth Rs 12,000</span>
                     </h1>
 
@@ -373,7 +398,7 @@ function Intro() {
                         <span className='drop-shadow-xl'> Become a Power BI Expert Now!! <br /> <span className='sm:text-lg text-sm '>【 cost less then a pizza 🍕】</span></span>
                     </button>
                     <div className='sm:text-xl text-base mt-4  text-white  flex w-screen justify-center font-extrabold mb-4'>
-                        <h1>Register before 15 {nextMonthDateString}, 2023 to unlock bonuses worth Rs 12,000</h1>
+                        <h1>Register before 15 Oct, 2023 to unlock bonuses worth Rs 12,000</h1>
                     </div>
 
                 </div>
@@ -436,7 +461,7 @@ function Intro() {
                     <span className='drop-shadow-xl'> Become a Power BI Expert Now!! <br /> <span className='sm:text-lg text-sm '>【 cost less then a pizza 🍕】</span></span>
                 </button>
                 <div className='text-xl mt-12  text-black  flex w-screen justify-center font-extrabold mb-4'>
-                    <h1>Register before 15 {nextMonthDateString}, 2023 to unlock bonuses worth Rs 12,000</h1>
+                    <h1>Register before 15 Oct, 2023 to unlock bonuses worth Rs 12,000</h1>
                 </div>
                 {/* FAQ  */}
 

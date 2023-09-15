@@ -132,12 +132,12 @@ function Intro() {
         {
             question: "Timings of the workshop?",
             answer:
-                "Day 1 – Saturday 7-10 PM Day 2 – Sunday 7-10 PM -We have kept the timings to be post office hours so you can attend the workshop easily.",
+                "Day 1 – Saturday 7-10 PM Day 2 – Sunday 7-10 PM ",
         },
         {
             question: "Will I get recordings if I miss out on a live session?",
             answer:
-                "You will receive recordings of Day 1 (Saturday) session. Please note, there would be no recording of the Day 2 (Sunday) session.Moreover, attending live is just 100x better than watching the recording as you can clear all doubts instantly. ",
+                "You will receive recordings of both Days , Day 1 (Saturday) session & Day 2 (Sunday) session. ",
         },
         {
             question: "Is there a specific device requirement?",
@@ -470,7 +470,7 @@ function Intro() {
                         <div className="mx-auto max-w-4xl divide-y divide-gray-900/10">
                             <h2 className="text-3xl font-bold leading-10 tracking-tight text-gray-900">Frequently asked questions</h2>
                             <p className='text-sm p-4'>I have tried my best to answer all the frequently asked questions. If you still have more questions,
-                                please write to us at scontact@zepanalytics.com (Give us 8 working hours to respond back). My awesome support team will get back to you.</p>
+                                please write to us at contact@zepanalytics.com (Give us 8 working hours to respond back). My awesome support team will get back to you.</p>
                             <dl className="mt-10 space-y-6 divide-y divide-gray-900/10">
                                 {faqs.map((faq) => (
                                     <Disclosure as="div" key={faq.question} className="pt-6">

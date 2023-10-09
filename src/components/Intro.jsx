@@ -164,7 +164,7 @@ function Intro() {
                 BECOME A <span>POWER BI</span>  EXPERT AND UNLEASH THE POWER OF ADVANCED DATA ANALYSIS AND VISUALIZATION TECHNIQUES USED BY <span>TOP BUSINESS INTELLIGENCE PROFESSIONALS</span> .
                 DISCOVER HOW TO <span>SAVE UP TO 2 HOURS</span>  OF TIME EVERYDAY WITHOUT ANY <span>PRIOR KNOWLEDGE</span> , ALL IN JUST <span> 6 HOURS</span>.
             </h1>
-            <iframe src={"https://www.youtube.com/embed/TIGbNv9zTN4"}  className='rounded-3xl p-2 mt-4 sm:h-[500px] sm:w-[800px] h-[250px] w-[370px]'  autoPlay controls  ></iframe>
+            <iframe src="https://www.youtube.com/embed/TIGbNv9zTN4" target="_parent"   className='rounded-3xl p-2 mt-4 sm:h-[500px] sm:w-[800px] h-[250px] w-[370px]'></iframe>
 
             <a href='https://pages.razorpay.com/PBIMasterclass' className='bg-gradient-to-l from-orange-500 to-yellow-300 font-semibold text-white drop-shadow-lg  text sm:text-4xl p-4 rounded-xl px-8 mt-4 text-xl'>
                 <span className='drop-shadow-xl'> Become a Power BI Expert Now!! <br /> <span className='sm:text-lg text-sm '>【 cost less than a pizza 🍕】</span></span>
@@ -339,7 +339,13 @@ function Intro() {
                     {actions.map((action, actionIdx) => (
                         <div
                             key={action.title}
-                            className="bg-white p-5 gap-2"
+                            className={classNames(
+                                actionIdx === 0 ? 'rounded-tl-lg rounded-tr-lg sm:rounded-tr-none' : '',
+                                actionIdx === 1 ? 'sm:rounded-tr-lg' : '',
+                                actionIdx === actions.length - 2 ? 'sm:rounded-bl-lg' : '',
+                                actionIdx === actions.length - 1 ? 'rounded-bl-lg rounded-br-lg sm:rounded-bl-none' : '',
+                                'relative group bg-white p-6 focus-within:ring-2 focus-within:ring-inset focus-within:ring-indigo-500'
+                            )}
                         >
                             <div className='flex flex-col  justify-center items-center'>
                                 <h1 className='text-white bg-gradient-to-r from-rose-400 to-orange-300 drop-shadow-md p-2 w-2/6 rounded-md mb-4'>Bonus</h1>

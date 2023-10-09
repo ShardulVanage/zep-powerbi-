@@ -164,11 +164,11 @@ function Intro() {
                 BECOME A <span>POWER BI</span>  EXPERT AND UNLEASH THE POWER OF ADVANCED DATA ANALYSIS AND VISUALIZATION TECHNIQUES USED BY <span>TOP BUSINESS INTELLIGENCE PROFESSIONALS</span> .
                 DISCOVER HOW TO <span>SAVE UP TO 2 HOURS</span>  OF TIME EVERYDAY WITHOUT ANY <span>PRIOR KNOWLEDGE</span> , ALL IN JUST <span> 6 HOURS</span>.
             </h1>
-            <video src={video} width={800} height={600} className='rounded-3xl p-3 mt-4' autoPlay controls  ></video>
+            <iframe src={"https://www.youtube.com/embed/TIGbNv9zTN4"}  className='rounded-3xl p-2 mt-4 sm:h-[500px] sm:w-[800px] h-[250px] w-[370px]'  autoPlay controls  ></iframe>
 
-            <button className='bg-gradient-to-l from-orange-500 to-yellow-300 font-semibold text-white drop-shadow-lg  text sm:text-4xl p-4 rounded-xl px-8 mt-4 text-xl'>
+            <a href='https://pages.razorpay.com/PBIMasterclass' className='bg-gradient-to-l from-orange-500 to-yellow-300 font-semibold text-white drop-shadow-lg  text sm:text-4xl p-4 rounded-xl px-8 mt-4 text-xl'>
                 <span className='drop-shadow-xl'> Become a Power BI Expert Now!! <br /> <span className='sm:text-lg text-sm '>【 cost less then a pizza 🍕】</span></span>
-            </button>
+            </a>
             <div >
                 <div class="flex sm:flex-row flex-col justify-between sm:text-xl  text-left text-sm items-center my-8 ">
 
@@ -261,11 +261,11 @@ function Intro() {
                     <h1>If you checked ANY of the boxes above, then you’re invited to join the Power BI course 😀</h1>
                 </div>
 
-                <button className='bg-gradient-to-l from-orange-500 to-yellow-300 font-semibold text-white drop-shadow-lg  text sm:text-4xl p-4 rounded-xl px-8 mt-4 text-xl'>
+                <a href="https://pages.razorpay.com/PBIMasterclass" className='bg-gradient-to-l from-orange-500 to-yellow-300 font-semibold text-white drop-shadow-lg  text sm:text-4xl p-4 rounded-xl px-8 mt-4 text-xl'>
                     <span className='drop-shadow-xl'> Become a Power BI Expert Now!! <br /> <span className='sm:text-lg text-sm '>【 cost less then a pizza 🍕】</span></span>
-                </button>
+                </a>
                 <div className='sm:text-xl text-sm mt-12  text-black  flex w-screen justify-center font-extrabold'>
-                    <h1>Register before 15 Oct, 2023 to unlock bonuses worth Rs 12,000</h1>
+                    <h1>Register before 10th Nov, 2023 to unlock bonuses worth Rs 12,000</h1>
                 </div>
             </div>
             {/* testimonials */}
@@ -288,9 +288,9 @@ function Intro() {
                     </div>
 
                 </div>
-                <button className='bg-gradient-to-l from-orange-500 to-yellow-300 font-semibold text-white drop-shadow-lg  text sm:text-4xl p-4 rounded-xl px-8 mt-4 text-xl'>
+                <a href='https://pages.razorpay.com/PBIMasterclass' className='bg-gradient-to-l from-orange-500 to-yellow-300 font-semibold text-white drop-shadow-lg  text sm:text-4xl p-4 rounded-xl px-8 mt-4 text-xl'>
                     <span className='drop-shadow-xl'> Become a Power BI Expert Now!! <br /> <span className='sm:text-lg text-sm '>【 cost less then a pizza 🍕】</span></span>
-                </button>
+                </a>
                 <div className='sm:text-5xl text-3xl  sm:w-3/5 font-extrabold  mt-24'>
                     <h1>What will you learn in this Masterclass?</h1>
                 </div>
@@ -317,11 +317,11 @@ function Intro() {
                 </div>
 
 
-                <button className='bg-gradient-to-l from-orange-500 to-yellow-300 font-semibold text-white drop-shadow-lg  text sm:text-4xl p-4 rounded-xl px-8 mt-4 text-xl'>
+                <a href='https://pages.razorpay.com/PBIMasterclass' className='bg-gradient-to-l from-orange-500 to-yellow-300 font-semibold text-white drop-shadow-lg  text sm:text-4xl p-4 rounded-xl px-8 mt-4 text-xl'>
                     <span className='drop-shadow-xl'> Become a Power BI Expert Now!! <br /> <span className='sm:text-lg text-sm '>【 cost less then a pizza 🍕】</span></span>
-                </button>
+                </a>
                 <div className='text-xl mt-12  text-black  flex w-screen justify-center font-extrabold'>
-                    <h1>Register before 15 Oct, 2023 to unlock bonuses worth Rs 12,000</h1>
+                    <h1>Register before 10th Nov, 2023 to unlock bonuses worth Rs 12,000</h1>
                 </div>
 
 
@@ -394,11 +394,11 @@ function Intro() {
                     <div className='p-4'>
                         <img src={certificate} alt="" height={400} width={1000} />
                     </div>
-                    <button className='bg-gradient-to-l from-orange-500 to-yellow-300 font-semibold text-white drop-shadow-lg  text sm:text-4xl p-4 rounded-xl px-8 mt-4 text-xl'>
+                    <a href='https://pages.razorpay.com/PBIMasterclass' className='bg-gradient-to-l from-orange-500 to-yellow-300 font-semibold text-white drop-shadow-lg  text sm:text-4xl p-4 rounded-xl px-8 mt-4 text-xl'>
                         <span className='drop-shadow-xl'> Become a Power BI Expert Now!! <br /> <span className='sm:text-lg text-sm '>【 cost less then a pizza 🍕】</span></span>
-                    </button>
+                    </a>
                     <div className='sm:text-xl text-base mt-4  text-white  flex w-screen justify-center font-extrabold mb-4'>
-                        <h1>Register before 15 Oct, 2023 to unlock bonuses worth Rs 12,000</h1>
+                        <h1>Register before 10th Nov, 2023 to unlock bonuses worth Rs 12,000</h1>
                     </div>
 
                 </div>
@@ -457,11 +457,11 @@ function Intro() {
                         </div>
                     </div >
                 </div>
-                <button className='bg-gradient-to-l from-orange-500 to-yellow-300 font-semibold text-white drop-shadow-lg  text sm:text-4xl p-4 rounded-xl px-8 mt-4 text-xl'>
+                <a href='https://pages.razorpay.com/PBIMasterclass' className='bg-gradient-to-l from-orange-500 to-yellow-300 font-semibold text-white drop-shadow-lg  text sm:text-4xl p-4 rounded-xl px-8 mt-4 text-xl'>
                     <span className='drop-shadow-xl'> Become a Power BI Expert Now!! <br /> <span className='sm:text-lg text-sm '>【 cost less then a pizza 🍕】</span></span>
-                </button>
+                </a>
                 <div className='text-xl mt-12  text-black  flex w-screen justify-center font-extrabold mb-4'>
-                    <h1>Register before 15 Oct, 2023 to unlock bonuses worth Rs 12,000</h1>
+                    <h1>Register before 10th Nov, 2023 to unlock bonuses worth Rs 12,000</h1>
                 </div>
                 {/* FAQ  */}
 

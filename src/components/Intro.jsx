@@ -76,7 +76,7 @@ function Intro() {
     // bones
     const actions = [
         {
-            title: 'Worth Rs 6,500',
+            title: 'Worth ₹ 6,500',
             href: '#',
             icon: PresentationChartBarIcon,
             iconForeground: 'text-teal-700',
@@ -84,7 +84,7 @@ function Intro() {
             description: "10,000+ Excel   customizable PPT templates for stunning presentations in no time with Power BI."
         },
         {
-            title: 'Worth Rs 5,500',
+            title: 'Worth ₹ 5,500',
             href: '#',
             icon: AcademicCapIcon,
             iconForeground: 'text-purple-700',

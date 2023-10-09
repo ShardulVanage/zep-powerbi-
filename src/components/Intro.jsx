@@ -127,7 +127,7 @@ function Intro() {
         {
             question: "When does the workshop start?",
             answer:
-                "The workshop will be for 2 days: Saturday 7-10 PM (21th Oct) & Sunday 7-10 PM (22 Oct)",
+                "The workshop will be for 2 days: Saturday 7-10 PM (21th Nov) & Sunday 7-10 PM (22th Nov)",
         },
         {
             question: "Timings of the workshop?",
@@ -170,42 +170,43 @@ function Intro() {
                 <span className='drop-shadow-xl'> Become a Power BI Expert Now!! <br /> <span className='sm:text-lg text-sm '>【 cost less then a pizza 🍕】</span></span>
             </a>
             <div >
-                <div class="flex sm:flex-row flex-col justify-between sm:text-xl  text-left text-sm items-center my-8 ">
+                <div class=" grid sm:grid-cols-2 grid-cols-1 justify-evenly sm:text-xl  text-left text-sm items-center my-8 ">
 
-                    <div className=' flex  items-start justify-between flex-col  font-bold  [&>div>h1]:ml-4  '>
-                        <div className='flex flex-row items-center justify-between my-4'>
+                    <div className=' grid sm:grid-cols-1 items-start justify-between  font-bold  [&>div>h1]:ml-4  '>
+                        <div className='flex flex-row items-center justify-start my-4'>
 
-                            <CheckCircleIcon width={45} height={45} /><h1>Master data analysis and save time.</h1>
+                            <CheckCircleIcon className='max-min-h-[45px] max-w-[45px]' /><h1>Master data analysis and save time.</h1>
                         </div>
-                        <div className='flex flex-row items-center justify-between my-4'>
+                        <div className='flex flex-row items-center justify-start my-4'>
 
-                            <CheckCircleIcon width={45} height={45} /><h1> Slash your daily work by 2 hours with Power BI</h1>
+                            <CheckCircleIcon className='max-min-h-[45px] max-w-[45px]' /><h1> Slash your daily work by 2 hours with Power BI</h1>
                         </div>
-                        <div className='flex flex-row items-center justify-between my-4'>
+                        <div className='flex flex-row items-center justify-start my-4'>
 
-                            <CheckCircleIcon width={45} height={45} />  <h1> Become a Power BI specialist and enhance  <br className='sm:hidden block' /> your CV with our certification.</h1>
+                            <CheckCircleIcon className='max-min-h-[45px] max-w-[45px]' />  <h1> Become a Power BI specialist and enhance   your CV with our certification.</h1>
                         </div>
                     </div>
 
-                    <div className='flex  items-start flex-col justify-between  font-bold ml-4 [&>div>h1]:ml-4 '>
-                        <div className='flex flex-row items-center justify-stretch my-4'>
-                            <CheckCircleIcon width={45} height={45} className='' />
-                            <h1> Get high-paying job offers as a Power BI developer.<br className='sm:hidden block' />  Top skill of 2023.</h1>
+                    <div className=' grid sm:grid-cols-1 items-start justify-between  font-bold  [&>div>h1]:ml-4  '>
+                        <div className='flex flex-row items-center justify-start my-4'>
+
+                            <CheckCircleIcon className='max-min-h-[45px] max-w-[45px]' />
+                            <h1> Get high-paying job offers as a Power BI developer. Top skill of 2023.</h1>
+                        </div>
+                        <div className='flex flex-row items-center justify-self-auto my-4'>
+
+                            <CheckCircleIcon className='max-min-h-[45px] max-w-[45px]'/><h1>  Tackle real-life excel challenges with Power BI and   solve problems like a pro.</h1>
                         </div>
                         <div className='flex flex-row items-center justify-stretch my-4'>
 
-                            <CheckCircleIcon width={45} height={45} /><h1>  Tackle real-life excel challenges with Power BI and <br className='sm:hidden block' />  solve problems like a pro.</h1>
-                        </div>
-                        <div className='flex flex-row items-center justify-stretch my-4'>
-
-                            <CheckCircleIcon width={45} height={45} /><h1> Join us and transform your career</h1>
+                            <CheckCircleIcon className='max-min-h-[45px] max-w-[45px]' /><h1> Join us and transform your career</h1>
                         </div>
                     </div>
                 </div>
             </div>
             {/* section */}
             <div className='sm:text-3xl text-xl mt-12 bg-[radial-gradient(ellipse_at_bottom,_var(--tw-gradient-stops))] from-orange-400 to-rose-400 text-white p-8 flex w-screen justify-center font-semibold'>
-                <h1 className='drop-shadow-md'>Workshop is on 21 & 22 {nextMonthDateString} from 7 to 10 PM.<br />
+                <h1 className='drop-shadow-md'>Workshop is on 21 & 22 Nov from 7 to 10 PM.<br />
                     ***Be Quick! Last few seats are remaining for this batch!***</h1>
             </div>
             {/* section */}
@@ -213,43 +214,42 @@ function Intro() {
                 <div className='sm:w-5/6 w-full  '>
 
                     <h1 className='sm:text-4xl text-2xl font-bold  sm:p-8'>Please Check All Boxes Where Your Answer Is YES!</h1>
-                    <div class="flex sm:flex-row justify-between items-start flex-col w-full">
-                        <div className='flex  items-start flex-col sm:text-xl text-base font-bold w-full text-left'>
-                            <div className='flex flex-row justify-start items-center my-2'>
+                    <div class=" grid sm:grid-cols-2 grid-cols-1 justify-evenly sm:text-xl  text-left text-sm items-center my-8 ">
 
-                                <input type="checkbox" className='mr-4 h-5 w-5' /> <label htmlFor="">I have been using Power BI daily but still haven't mastered it.</label>
+                         <div className=' grid sm:grid-cols-1 items-start justify-between  font-bold  '>
+                            <div className='flex flex-row items-center justify-start my-4'>
+                                <input type="checkbox" className='mr-4 min-w-[50px] h-6 ' /> <label htmlFor="">I have been using Power BI daily but still haven't mastered it.</label>
                             </div>
-                            <div className='flex flex-row justify-start items-center my-2 '>
+                            <div className='flex flex-row items-center justify-start my-4'>
 
 
-                                <input type="checkbox" className='mr-4 h-5 w-5' /> <label htmlFor="">I want to unlock better job opportunities, but my lack of Power BI <br className='sm:block hidden ' /> knowledge is holding me back.</label>
+                                <input type="checkbox" className='mr-4 min-w-[50px] h-6 ' /> <label htmlFor="">I want to unlock better job opportunities, but my lack of Power BI <br className='sm:block hidden ' /> knowledge is holding me back.</label>
                             </div>
-                            <div className='flex flex-row justify-start items-center my-2'>
+                            <div className='flex flex-row items-center justify-start my-4'>
 
 
-                                <input type="checkbox" className='mr-4 h-5 w-5' />
+                                <input type="checkbox" className='mr-4 min-w-[50px] h-6 ' />
                                 <label htmlFor="">Advanced Power BI seems challenging, and I need a mentor to guide me through it. </label>
                             </div>
                         </div>
-                        <div className='flex  items-start flex-col sm:text-xl text-base font-bold w-full text-left'>
-                            <div className='flex flex-row justify-start items-center my-2'>
+                        <div className=' grid sm:grid-cols-1 items-start justify-between  font-bold   '>
+                            <div className='flex flex-row items-center justify-start my-4'>
 
 
-                                <input type="checkbox" className='mr-4 h-5 w-5' />
+                            <input type="checkbox"  className='mr-4 min-w-[50px] h-6 ' />
                                 <label htmlFor="">I aim to impress my manager and colleagues with captivating Power BI reports.</label>
 
                             </div>
-                            <div className='flex flex-row justify-start items-center my-2'>
+                            <div className='flex flex-row items-center justify-start my-4'>
 
 
-                                <input type="checkbox" className='mr-4 h-5 w-5' />
+                            <input type="checkbox" className='mr-4 min-w-[50px] h-6 ' />
                                 <label htmlFor="">I want to boost my efficiency in using Power BI and save over 2 hours every day.</label>
 
                             </div>
-                            <div className='flex flex-row justify-start items-center my-2'>
+                            <div className='flex flex-row items-center justify-start my-4'>
 
-
-                                <input type="checkbox" className='mr-4 h-5 w-5' />
+                            <input type="checkbox" className='mr-4 min-w-[50px] h-6' />
                                 <label htmlFor="">I want to harness the power of advanced Power BI formulas to simplify my work life.</label>
 
                             </div>
@@ -327,7 +327,7 @@ function Intro() {
 
                 <div className='sn:text-5xl text-3xl mt-12 bg-[radial-gradient(ellipse_at_bottom,_var(--tw-gradient-stops))] from-orange-400 to-rose-400 text-white p-8 flex w-screen justify-center font-semibold'>
 
-                    <h1 className='drop-shadow-md'>Register before midnight of 15 Oct 2023 <br />
+                    <h1 className='drop-shadow-md'>Register before midnight of 10 Nov 2023 <br />
                         <span className='sm:text-2xl text-lg'>To Unlock All Bonuses worth Rs 12,000</span>
                     </h1>
 
@@ -348,7 +348,7 @@ function Intro() {
                             )}
                         >
                             <div>
-                                <h1 className='text-yellow-300 bg-yellow-800 drop-shadow-md p-2 w-2/12 rounded-md'>Bonus</h1>
+                                <h1 className='text-yellow-300 bg-yellow-800 drop-shadow-md p-2 w-2/6 rounded-md'>Bonus</h1>
                                 <span
                                     className={classNames(
                                         action.iconBackground,
@@ -489,7 +489,7 @@ function Intro() {
                                                     </Disclosure.Button>
                                                 </dt>
                                                 <Disclosure.Panel as="dd" className="mt-2 pr-12">
-                                                    <p className="text-base leading-7 text-gray-600">{faq.answer}</p>
+                                                    <p className="text-base text-left leading-7 text-gray-600">{faq.answer}</p>
                                                 </Disclosure.Panel>
                                             </>
                                         )}

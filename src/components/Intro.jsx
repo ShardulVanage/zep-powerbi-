@@ -390,7 +390,7 @@ function Intro() {
                         <h1>Yes! You will be certified by a Power BI Trainer which brings a lot of credibility to your certificate & your resume.   </h1>
                     </div>
                     <div className='p-4'>
-                        <img src={certificate} alt="" height={400} width={1000} />
+                        <img src="https://res.cloudinary.com/dtsuvx8dz/image/upload/v1696874621/a3ylpavnmsgwgi4uwufq.jpg" alt="certificate" height={400} width={1000} />
                     </div>
                     <a href='https://pages.razorpay.com/PBIMasterclass' className='bg-gradient-to-l from-orange-500 to-yellow-300 font-semibold text-white drop-shadow-lg  text sm:text-4xl p-4 rounded-xl px-8 mt-4 text-xl'>
                         <span className='drop-shadow-xl'> Become a Power BI Expert Now!! <br /> <span className='sm:text-lg text-sm '>【 cost less than a pizza 🍕】</span></span>

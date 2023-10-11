@@ -275,16 +275,16 @@ function Intro() {
                 </div>
                 <div class="grid sm:grid-cols-2 md:grid-cols-2 gap-4 mt-8">
                     <div>
-                        <img src={t1} alt="" className='h-auto max-w-full rounded-lg' />
+                        <img src="https://res.cloudinary.com/dtsuvx8dz/image/upload/v1697017993/hj9uxittrozpewshpkua.png" alt="" className='h-auto max-w-full rounded-lg' />
                     </div>
                     <div>
-                        <img src={t2} alt="" className='"h-auto max-w-full rounded-lg"' />
+                        <img src="https://res.cloudinary.com/dtsuvx8dz/image/upload/v1697017940/qn4zhevqoothddkpl6xm.png" alt="" className='"h-auto max-w-full rounded-lg"' />
                     </div>
                     <div>
-                        <img src={t3} alt="" className='"h-auto max-w-full rounded-lg"' />
+                        <img src="https://res.cloudinary.com/dtsuvx8dz/image/upload/v1697017872/fswvgqn8p8jt9p1x1wfh.png" alt="" className='"h-auto max-w-full rounded-lg"' />
                     </div>
                     <div>
-                        <img src={t4} alt="" className='"h-auto max-w-full rounded-lg"' />
+                        <img src="https://res.cloudinary.com/dtsuvx8dz/image/upload/v1697017771/t1_heibhv.png" alt="" className='"h-auto max-w-full rounded-lg"' />
                     </div>
 
                 </div>

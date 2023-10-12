@@ -127,7 +127,7 @@ function Intro() {
         {
             question: "When does the workshop start?",
             answer:
-                "The workshop will be for 2 days: Saturday 7-10 PM (21th Nov) & Sunday 7-10 PM (22th Nov)",
+                "The workshop will be for 2 days: Saturday 7-10 PM (18th Nov) & Sunday 7-10 PM (19th Nov)",
         },
         {
             question: "Timings of the workshop?",
@@ -206,7 +206,7 @@ function Intro() {
             </div>
             {/* section */}
             <div className='sm:text-3xl text-xl mt-12 bg-[radial-gradient(ellipse_at_bottom,_var(--tw-gradient-stops))] from-orange-400 to-rose-400 text-white p-8 flex w-screen justify-center font-semibold'>
-                <h1 className='drop-shadow-md'>Workshop is on 21 & 22 Nov from 7 to 10 PM.<br />
+                <h1 className='drop-shadow-md'>Workshop is on 18th & 19th Nov from 7 to 10 PM.<br />
                     ***Be Quick! Last few seats are remaining for this batch!***</h1>
             </div>
             {/* section */}
@@ -449,7 +449,7 @@ function Intro() {
                                 transform="translate(24 24)"
                                 clipPath="url(#2ade4387-9c63-4fc4-b754-10e687a0d332)"
                             >
-                                <img src={satyajit} alt="" className='rounded-lg' />
+                                <img src="https://res.cloudinary.com/dtsuvx8dz/image/upload/v1687806712/whmgy2fkkrpsduevi9mk.png" alt="" className='rounded-lg' />
                             </foreignObject>
 
                         </div>
@@ -497,6 +497,15 @@ function Intro() {
                         </div>
                     </div>
                 </div>
+                <div className='bg-white w-screen text-white flex  flex-col items-center justify-center p-8'>
+                <a href="https://pages.razorpay.com/PBIMasterclass" className='bg-gradient-to-l from-orange-500 to-yellow-300 font-semibold text-white drop-shadow-lg  text sm:text-4xl p-4 rounded-xl px-8 mt-4 text-xl'>
+                    <span className='drop-shadow-xl'> Become a Power BI Expert Now!! <br /> <span className='sm:text-lg text-sm '>【 cost less than a pizza 🍕】</span></span>
+                </a>
+                <div className='sm:text-xl text-sm mt-12  text-black  flex w-screen justify-center font-extrabold'>
+                    <h1>Register before 10th Nov, 2023 to unlock bonuses worth Rs 12,000</h1>
+                </div>
+                    </div>
+
             </div>
         </div >
     )

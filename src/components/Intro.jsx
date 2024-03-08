@@ -160,17 +160,17 @@ function Intro() {
 
         <div className='bg-[conic-gradient(at_bottom_right,_var(--tw-gradient-stops))] from-blue-700 via-blue-800 to-gray-900 text-white pt-12 flex flex-col items-center w-full'>
             {/* section */}
-            <h1 className='sm:text-4xl sm:w-2/3 font-medium w-full text-lg [&>span]:text-yellow-400 [&>span]:underline'>
+            <h1 className='sm:text-4xl px-4 font-medium sm:w-5/6  text-lg [&>span]:text-yellow-400 [&>span]:underline'>
                 BECOME A <span>POWER BI</span>  EXPERT AND UNLEASH THE POWER OF ADVANCED DATA ANALYSIS AND VISUALIZATION TECHNIQUES USED BY <span>TOP BUSINESS INTELLIGENCE PROFESSIONALS</span> .
                 DISCOVER HOW TO <span>SAVE UP TO 2 HOURS</span>  OF TIME EVERYDAY WITHOUT ANY <span>PRIOR KNOWLEDGE</span> , ALL IN JUST <span> 6 HOURS</span>.
             </h1>
-            <iframe src="https://www.youtube.com/embed/TIGbNv9zTN4" target="_parent"   className='rounded-3xl p-2 mt-4 sm:h-[500px] sm:w-[800px] h-[250px] w-[370px]'></iframe>
+            <iframe src="https://www.youtube.com/embed/TIGbNv9zTN4" target="_parent"   className='rounded-3xl p-2 px-4 mt-4 sm:h-[500px] sm:w-[800px] h-[250px] w-[370px]'></iframe>
 
-            <a href='https://pages.razorpay.com/PBIMasterclass' className='bg-gradient-to-l from-orange-500 to-yellow-300 font-semibold text-white drop-shadow-lg  text sm:text-4xl p-4 rounded-xl px-8 mt-4 text-xl'>
+            <a href='https://pages.razorpay.com/PBIMasterclass' className='bg-gradient-to-l  from-orange-500 to-yellow-300 font-semibold text-white drop-shadow-lg  text sm:text-4xl p-4 rounded-xl  mt-4 text-xl'>
                 <span className='drop-shadow-xl'> Become a Power BI Expert Now!! <br /> <span className='sm:text-lg text-sm '>【 cost less than a pizza 🍕】</span></span>
             </a>
             <div >
-                <div class=" grid sm:grid-cols-2 grid-cols-1 justify-evenly sm:text-xl  text-left text-sm items-center my-8 ">
+                <div class=" grid sm:grid-cols-2 grid-cols-1 justify-evenly sm:text-xl  text-left text-sm items-center my-8 px-4 ">
 
                     <div className=' grid sm:grid-cols-1 items-start justify-between  font-bold  [&>div>h1]:ml-4  '>
                         <div className='flex flex-row items-center justify-start my-4'>
